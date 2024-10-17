@@ -73,7 +73,7 @@ import { promises as fs } from 'fs';
     // make new file with (iconset name).dart (File Head)
     fs.writeFile(
       outputPath,
-      `///Discover all icons of this iconset at https://andronasef.ninja/iconify_flutter/collection/${iconSet.prefix} \n class ${iconSetName} {`
+      `///Discover all icons of this iconset at https://andronasef.github.io/iconify_flutter/collection/${iconSet.prefix} \n class ${iconSetName} {`
     );
 
     // Validate, clean up, fix palette and optimise
